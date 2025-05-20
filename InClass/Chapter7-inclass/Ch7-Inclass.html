@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Chapter7</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Chapter 7 Forms</h1>
+        </header>
+        <nav></nav>
+        <main>
+            <form action="http://webdevbasics.net/scripts/demo.php">
+                <fieldset>
+                    <legend>Personal Information Section</legend>
+                    <label for="fname">Firstname *</label>
+                    <input type="text" name="fname" id="frame" tabindex="3" required placeholder="Jane"><br>
+                    <label for="Iname">Lastname</label>
+                    <input type="text" name="Iname" id="Iname" tabindex="2" placeholder="Doe"><br>
+                    <label for="email">email</label>
+                    <input type="email" name="email" id="email" tabindex="1"><br>
+                    <label for="dob">Birthday</label>
+                    <input type="date" id="dob" name="dob"><br>
+                    <label for="fc">Fav. color</label>
+                    <input type="color" id="fc" name="fc"><br>
+                    <label>State</label>
+                    <select>
+                        <option id="state1">GA</option>
+                        <option selected id="state4">FL</option>
+                        <option id="state2">CL</option>
+                        <option id="state3">MA</option>
+                    </select><br>
+                    <label for="weburl">Url of Portfolio</label>
+                    <input type="url" id="weburl" name="weburl"><br>
+                    <label>Select the browers you use</label>
+                    <input type="checkbox" name="c1" id="c1" value="IE">Internet Explorer
+                    <input type="checkbox" name="c1" id="c2" value="opera">Opera
+                    <input type="checkbox" name="c1" id="c3" value="Firefox">Firefox
+                    <input type="checkbox" name="c1" id="c4" value="GC" checked>Google Chrome<br>
+                    <label>Fav. Browser</label>
+                    <input type="radio" name="fb1" id="fb1" value="IE">Internet Explorer
+                    <input type="radio" name="fb1" id="fb2" value="opera">Opera
+                    <input type="radio" name="fb1" id="fb3" value="Firefox">Firefox
+                    <input type="radio" name="fb1" id="fb4" value="GC" checked>Google Chrome<br>
+                    <label for="myChoice">Choose a number between 1 and 10:</label><br>
+                    Low <input type="range" name="myChoice" id="myChoice" min="1" max="10"> High<br>
+                    <label for="LuckyNumber">Choose a Lucky number between 1 and 10:</label><br>
+                    <input type="number" name="LuckyNumber" id="LuckyNumber" min="1" max="10">
+                </fieldset>
+                <fieldset>
+                    <legend>Password Section</legend>
+                    <label for="pwd">Password</label>
+                    <input type="password" name="pwd" id="pwd">
+                    <label for="pwdConfirm">Confirm your password</label>
+                    <input type="password" name="pwdConfirm" id="pwdConfirm">
+                    <input type="hidden" name="hl" id="hl" value="yes">
+                </fieldset>
+                <label for="comment">Type your comments here</label><br>
+                <textarea id="comment"></textarea>
+                <input type="submit" value="Sign Up">
+                <input type="reset" value="Clear All">
+                <input type="button" id="grow" name="grow" value="Grow Image">
+                <button id="shrink" name="shrink">Shrink Image</button>
+                <input type="image" id="il" name="il" src="favicon-16x16.png" alt="It is a button">
+            </form>
+        </main>
+        <footer></footer>
+    </div>
+</body>
+
+</html>

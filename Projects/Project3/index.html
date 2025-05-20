@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Hobby: Video Games</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+    <!-- Fabian Vindas | Project 3: Interactive Web Page -->
+</head>
+<body onload="showWelcome()">
+    <!-- Using JavaScript to alert welcome message -->
+
+    <div id="wrapper">
+        <header>
+            <h1>My Hobby: Video Games</h1>
+
+            <!-- Drop-down menu -->
+            <nav id="dropdown-nav">
+                <label for="menu">Navigate:</label>
+                <select id="menu" onchange="location = this.value;">
+                    <option value="#about">About</option>
+                    <option value="#specialties">Specialties</option>
+                </select>
+            </nav>
+        </header>
+
+        <main>
+            <section id="about">
+                <h2>Why I Love Video Games</h2>
+                <p class="toggle">Gaming helps me relax and explore new worlds and challenges. It’s my escape from stress.</p>
+                <p class="toggle">From retro classics to modern adventures, I love how games evolve with technology.</p>
+                <p class="toggle">I also enjoy the social part teaming up with friends for hours of fun and competition.</p>
+                <button id="toggleImageBtn">Show/Hide Gaming Image</button><br><br>
+                <img id="mainImage" src="images/consoles.jpg" alt="Gaming Console" style="display:none;">
+            </section>
+
+            <section id="specialties">
+                <h2>My Gaming Specialties</h2>
+
+                <div class="specialty" id="genre">
+                    <h3>Favorite Genre</h3>
+                    <p>I’m a huge fan of fast-paced FPS games like Call of Duty and Rainbow Six Siege.</p>
+                    <img src="images/fps.jpg" alt="First Person Shooter">
+                </div>
+
+                <div class="specialty" id="platform">
+                    <h3>Consoles & Platforms</h3>
+                    <p>I play on PC and stream on Twitch.</p>
+                    <img src="images/console.jpg" alt="Game Consoles">
+                </div>
+
+                <div class="specialty" id="multiplayer">
+                    <h3>Multiplayer Moments</h3>
+                    <p>Some of my best memories come from playing co-op games with friends online.</p>
+                    <img src="images/co-op.jpg" alt="Multiplayer Gaming">
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Fabian Vindas</p>
+            <p>
+                <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                        src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                        alt="Valid CSS!" />
+                </a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

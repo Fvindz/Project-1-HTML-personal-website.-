@@ -1,0 +1,36 @@
+body {
+    background-color: lightgreen;
+}
+
+#wrapper {
+    width: 80%;
+    margin: auto;
+    background-color: #747444;
+}
+
+table {
+    margin: auto;
+    background-image: url(../chapter4/image/2.jpeg);
+    border: 2px #ffffff solid;
+    color: #ffff00;
+}
+
+table tr td {
+    border: 2px #ffffff solid;
+    text-align: center;
+    padding: 5px;
+}
+
+table tr th {
+    border: 2px #ffffff solid;
+    text-align: center;
+    padding: 5px;
+}
+
+tr:nth-of-type(even) {
+    background-color: #d06868;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #797575;
+}

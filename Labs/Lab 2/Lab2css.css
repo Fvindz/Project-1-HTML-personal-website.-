@@ -1,0 +1,54 @@
+/* Fabian Vindas Lab 2 */
+h2 {
+    color: #e4c575;
+    font-family: "Times New Roman", Times, serif;
+}
+
+b {
+    color: #06392c;
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+    background-color: #000033;
+    background-image: url("sunset.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    line-height: 200%;
+    margin-bottom: 0%;
+    color: white;
+}
+
+body {
+    color: #4a4a4a;
+    background-color: #06392c;
+}
+
+main {
+    background-image: url("FortYargo2.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    background-color: white;
+    padding: 10px;
+}
+
+#wrapper {
+    background-color: #ffffff;
+    box-shadow: 3px 3px 3px #e4c575;
+    margin: auto;
+    width: 80%;
+}
+
+nav {
+    background-color: #e4c575;
+    line-height: 250%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    margin-bottom: 0%;
+}
+
+footer {
+    text-align: center;
+    font-style:italic
+}

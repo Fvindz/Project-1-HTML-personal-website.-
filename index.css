@@ -1,0 +1,32 @@
+body {
+    background-image: url('pipboy\ background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #00FF00; /* Fallout terminal green text */
+    font-family: 'Courier New', monospace;
+    text-align: center;
+}
+
+header, footer {
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    margin-top: 3cm;
+}
+
+a {
+    color: #00FF00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul, ol {
+    list-style-type: none;
+    padding: 0;
+}

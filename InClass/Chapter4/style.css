@@ -1,0 +1,33 @@
+body {
+    background-color: #00ffff;
+    color: #0000ff;
+}
+
+#wrapper {
+    width: 80%;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+h1 {
+    border: 2px dotted #0000ff;
+    padding-left: 10px;
+    border-radius: 10px 0 30px 40px;
+}
+
+main {
+    padding-left: 10px;
+}
+
+header {
+     padding-left: 10px;
+}
+
+main img {
+    border: 2px double blue;
+    margin-left: 10px;
+}
+
+nav {
+    padding-left: 10px;
+}

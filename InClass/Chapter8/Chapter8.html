@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image Gallery</title>
+    <meta charset="utf-8">
+    <style>
+        #wrapper{
+            width:80%;
+            margin:auto;
+            background-color: antiquewhite;
+        }
+
+        .container{
+            width:50%;
+            height:50%;
+            margin: auto;
+            background-color: #000;
+            position:absolute;
+            top:0;
+            left:0;
+
+            background-color: aqua;
+        }
+
+        .gallery{
+            display:none;
+            margin-top:0;
+            margin-left:100px;
+            position:absolute;
+            transform:rotate(10deg);
+            border:10px solid #000;
+        }
+
+        a:hover .gallery
+        {
+            display:block;
+        }
+
+    </style>
+</head>
+<body>
+    <div id ="wrapper">
+        <header>
+            <h1>Image Gallery </h1>
+        </header>
+        <nav>
+        </nav>
+        <main>
+            <a href="image/1.jpeg">
+                <img src="image/1.jpeg" width="75" height="50" alt="flower image"><br>
+                <img src="image/1.jpeg" width="300" height="200" alt="flower image" class="gallery">
+            </a>
+            <a href="image/2.jpeg">
+                <img src="image/2.jpeg" width="75" height="50" alt="flower image"><br>
+                <img src="image/2.jpeg" width="300" height="200" alt="flower image" class="gallery">
+            </a>
+            <a href="image/3.jpeg">
+                <img src="image/3.jpeg" width="75" height="50" alt="flower image"><br>
+                <img src="image/3.jpeg" width="300" height="200" alt="flower image" class="gallery">
+            </a>
+            <a href="image/1.jpeg">
+                <img src="image/1.jpeg" width="75" height="50" alt="flower image"><br>
+                <img src="image/1.jpeg" width="300" height="200" alt="flower image" class="gallery">
+            </a>
+            <br>
+            <br>
+        </main>
+        <footer>
+        </footer>
+    </div>
+</body>
+</html>

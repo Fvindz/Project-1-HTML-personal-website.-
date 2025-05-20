@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Fabian Vindas Lab 5 -->
+  <meta charset="UTF-8">
+  <title>Seasonal Color Theme</title>
+  <link rel="stylesheet" href="lab5.css">
+</head>
+<body>
+  <!-- Lab 5 body -->
+  <div id="wrapper">
+    <header id="site-header">
+      <h1>My Seasonal Webpage</h1>
+    </header>
+
+    <nav id="mainnav">
+      <a href="https://fvindas.domains.ggc.edu/Labs/labs.html">Home</a>
+    </nav>
+
+    <main id="site-main">
+      <p>Color themes for the four seasons.</p>
+    </main>
+
+    <footer id="site-footer">
+      <p>&copy; 2025 Fabian Vindas</p>
+      <p>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="https://jigsaw.w3.org/css-validator/images/vcss"
+                alt="Valid CSS!" />
+        </a>
+    </p>
+    </footer>
+
+    <div style="text-align:center; margin-top:20px">
+      <label for="season">Select Season:</label>
+      <select id="season" onchange="changeTheme()">
+        <option value="default">Default</option>
+        <option value="spring">Spring</option>
+        <option value="summer">Summer</option>
+        <option value="fall">Fall</option>
+        <option value="winter">Winter</option>
+      </select>
+    </div>
+  </div>
+
+  <script src="lab5.js"></script>
+</body>
+</html>

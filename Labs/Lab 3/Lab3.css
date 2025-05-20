@@ -1,0 +1,116 @@
+/* Fabian Vindas Lab 3 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+.transcript-wrapper {
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.logo {
+    width: 250px;
+    margin-bottom: 0px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.2em;
+}
+
+h2 span {
+    font-weight: normal;
+}
+
+.table-container {
+    border: 8px solid #003300;
+    display: inline-block;
+    width: 70%;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: none;
+}
+
+th {
+    background-color: #003300;
+    color: white;
+    text-align: center;
+}
+
+.semester-row {
+    background-color: #009900;
+    color: white;
+    font-weight: bold;
+}
+
+.semester-row td {
+    text-align: center;
+}
+
+.semester-average {
+    background-color: #ffffff;
+    font-weight: bold;
+}
+
+.overall-average {
+    background-color: #003300;
+    color: white;
+    font-weight: bold;
+}
+
+.semester-average td,
+.overall-average td {
+    text-align: center;
+}
+
+td:first-child,
+td:last-child {
+    font-weight: bold;
+}
+
+.banded {
+    background-color: #f2f2f2;
+}
+
+.progress-bar {
+    width: 100px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.fill {
+    height: 100%;
+    background-color: #429c42;
+}
+
+.progress-label {
+    font-weight: bold;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+table, th, td {
+    text-align: center;
+}
